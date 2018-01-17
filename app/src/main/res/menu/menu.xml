@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Settings"
+        android:id="@+id/settingsBtn"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:title="Plan"
+        android:id="@+id/planBtn"
+        android:icon="@drawable/ic_plan"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:title="Add"
+        android:id="@+id/addBtn"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>
